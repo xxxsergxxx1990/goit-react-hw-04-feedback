@@ -8,7 +8,7 @@ import { Section } from './Section/Section.jsx';
 export const App = () => {
   const [stats, setStats] = useState({ good: 0, neutral: 0, bad: 0 });
 
-  const feddbacknames = ['good', 'neutral', 'bad'];
+  
 
  const countTotalFeedback = () => {
     const { good, neutral, bad } = stats;
